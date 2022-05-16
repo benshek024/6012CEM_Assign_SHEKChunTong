@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Yale School of Art</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/svg+xml" href="img/favicon.png" />
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/224b541484.js" crossorigin="anonymous"></script>
+</head>
+  
+<body>
+  <nav class="navbar">
+    <div class="navbar__container">
+      <img src="img/logo.png" alt="logo" />
+      <p class="navbar__p">Yale University <br> School of Art</p>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="/" class="navbar__links"> Home </a> 
+        </li>
+        <li class="navbar__item">
+          <a href="/schoolinfo.html" class="navbar__links"> School Info </a> 
+        </li>
+        <li class="navbar__item">
+          <a href="/calendars.html" class="navbar__links"> Calendars </a> 
+        </li>
+        <li class="navbar__item">
+          <a href="/newsevents.html" class="navbar__links"> News & Events </a>
+        </li>
+        <li class="navbar__item">
+          <a href="/admission.html" class="navbar__links"> Admission </a>
+        </li>
+        <li class="navbar__item">
+          <a href="/contact.html" class="navbar__links"> Contact </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="main">
+    <div class="center__container">
+      <div class="center__content">
+        <h1 style="text-align: center;">Staff Login</h1>
+        <form id="staffform" name="staffform" action="/" method="GET">
+          <div class="center-block" id="error" style="font-size:32px;"></div>
+          <div>
+          <input class="center-block" type="text" id="staffid" name="staffid" placeholder="Staff Email" style="font-size:32px;"><br><br>
+          <input class="center-block" type="text" id="staffpwd" name="staffpwd" placeholder="Password" style="font-size:32px;"><br><br>
+          </div>
+          <button type="submit" class="center__btn">Login</button>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__container">
+    <div class="social__icons">
+      <a href="https://www.instagram.com/yaleschoolofart/?hl=en" class="social__icon--link" target="_blank">
+        <i class="fab fa-instagram" style="color:white"></i>
+      </a>
+      <a href="https://twitter.com/yaleschoolofart" class="social__icon--link" target="_blank">
+        <i class="fab fa-twitter" style="color:white"></i>
+      </a>
+      <a href="https://www.youtube.com/channel/UCDwJT0mYodTSodcpH-hGmdA" class="social__icon--link" target="_blank">
+        <i class="fab fa-youtube" style="color:white"></i>
+      </a>
+      <a href="https://www.facebook.com/YaleSchoolofArt/" class="social__icon--link" target="_blank">
+        <i class="fab fa-facebook" style="color:white"></i>
+      </a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
